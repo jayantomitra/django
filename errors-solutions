@@ -1,0 +1,18 @@
+
+
+> conda create --name myDjangoEnv python=3.10
+
+(e)Error (o/p)
+Collecting package metadata (current_repodata.json): failed
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.anaconda.com/pkgs/main/win-64/current_
+repodata.json>
+
+[solved]
+ DLLs delivered by Anaconda3 are located here:
+C:Users\Anaconda3\Library\bin
+
+copied the following files
+
+libcrypto-1_1-x64.*
+libssl-1_1-x64.*
+from C:Users\Anaconda3\Library\bin to C:Users\Anaconda3\DLLs
